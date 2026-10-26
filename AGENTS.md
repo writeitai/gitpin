@@ -4,9 +4,9 @@ Build the simplest solution that meets current requirements. Keep changes focuse
 
 ## Scope
 
-This is Gitpin's public client repository. Keep CLI/SDK implementations and shared client-side API and authentication logic here. Keep the hosted backend, deployment and private infrastructure in their owning repository. Client builds and installation must work without access to private source.
+This is Gitpin's public client repository. Keep CLI/SDK implementations and shared client-side API and authentication logic here. The installable agent skill lives in `skills/gitpin/`. Keep the hosted backend, deployment and private infrastructure in their owning repository. Client builds and installation must work without access to private source.
 
-The repository currently contains setup documentation and licensing only. Do not advertise unimplemented commands, authentication flows or package releases as usable.
+The repository currently contains that skill, its install/auth/usage README and licensing. No CLI or SDK is implemented. Do not advertise unimplemented commands, authentication flows or package releases as usable.
 
 ## Credentials and behavior
 
